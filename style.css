@@ -3,25 +3,38 @@
 
 body {font-family: 'Open Sans', sans-serif;}
 
-ul, ol, li {list-style: none;}
+nav, ul, ol, li {list-style: none;}
 
 a {text-decoration: none; opacity: 0.9; color: #191c03; cursor: pointer;}
 
 a:hover {opacity: 100%;}
 
 /* HEADER */
-header {display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 20px 50px;}
+header {display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 20px 50px; background-color: #fff;}
 
 header img {width: 200px;}
 
-header ul {display: flex; justify-content: space-between;}
+header nav {display: flex; justify-content: space-between;}
 
-header ul li {margin-left: 30px;}
+header nav a {margin-left: 30px;}
 
-header ul li:first-child {margin-left: 0;}
+header nav:first-child {margin-left: 0;}
 
     @media (max-width: 700px) 
     {header {flex-direction: column;}
-    header ul {margin-top: 15px;}}
+    header nav {margin-top: 15px;}}
 
 /* HERO */
+.hero {height: 750px; background-image: url(img/hero.jpg); background-size: cover; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff;}
+
+.hero h1 {font-size: 3.5rem; text-align: center; margin: 25px 50px;}
+
+.hero h2 {font-size: 2rem; text-align: center; margin: 25px 50px;}
+
+.hero a {padding: 15px 50px; margin: 25px 50px; border-radius: 10px; text-transform: uppercase; background-color: rgba(255, 255, 255, 0.85);}
+
+    @media (max-width: 700px)
+    {.hero h1 {font-size: 2.5rem;}
+    .hero h2 {font-size: 1rem;}}
+
+/* CONHEÇA O HOTEL */
