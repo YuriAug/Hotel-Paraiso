@@ -22,7 +22,7 @@ header nav:first-child {margin-left: 0;}
 
     @media (max-width: 700px) 
     {header {flex-direction: column;}
-    header nav {margin-top: 15px; width: 100%;}}
+    header nav {margin-top: 15px; flex-grow: 1;}}
 
 /* HERO */
 .hero {height: 750px; background-image: url(img/hero.jpg); background-size: cover; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff;}
