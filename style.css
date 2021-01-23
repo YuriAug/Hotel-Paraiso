@@ -42,13 +42,13 @@ header nav a:first-child {margin-left: 0;}
 
 .chamado-1 h2 {font-size: 2rem;}
 
-.chamado-1 p {width: 700px; margin: 20px auto; padding: 15px; border-radius: 5px;}
+.chamado-1 p {max-width: 700px; margin: 20px auto; padding: 15px; border-radius: 5px;}
 
 .chamado-1 hr {height: 2px; width: 200px; margin: 0px auto; background-color: #191c03;}
 
-.grid {display: flex; flex-wrap: wrap; justify-content: space-around; margin-top: 70px;}
+.grid {display: flex; flex-wrap: wrap; justify-content: space-around; margin: 70px 0px;}
 
-.grid li {background-size: cover; height: 300px; margin: 15px}
+.grid li {background-size: cover; background-position: center; height: 300px; margin: 15px}
 
 .grid .large{flex-basis: 56%;}
 
@@ -60,4 +60,5 @@ header nav a:first-child {margin-left: 0;}
     .grid .img-quatro {background-image: url(img/itacare-04.jpg);}
 
     @media (max-width: 850px) 
-    {.grid .large, .grid .small {flex-basis: 100%;}}
+    {.grid .large, .grid .small {flex-basis: 100%;}
+    .grid li {margin: 10px;}}
