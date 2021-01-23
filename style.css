@@ -1,27 +1,27 @@
 /* RESET */
-* 
-{margin: 0; padding: 0; border: 0; box-sizing: border-box;}
+* {margin: 0; padding: 0; border: 0; box-sizing: border-box;}
 
-body 
-{font-family: 'Open Sans', sans-serif;}
+body {font-family: 'Open Sans', sans-serif;}
 
-ul, ol, li 
-{list-style: none;}
+ul, ol, li {list-style: none;}
 
-a
-{text-decoration: none; opacity: 0.9; color: #191c03}
+a {text-decoration: none; opacity: 0.9; color: #191c03; cursor: pointer;}
 
-a:hover
-{opacity: 100%;}
+a:hover {opacity: 100%;}
 
 /* HEADER */
-header
-{display: flex; align-items: center; width: 100%; padding: 20px 50px;}
+header {display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 20px 50px;}
 
-header img
-{width: 200px;}
+header img {width: 200px;}
 
-header ul 
-{display: flex; margin-left: auto; flex-basis: 22%; justify-content: space-between;}
+header ul {display: flex; justify-content: space-between;}
+
+header ul li {margin-left: 30px;}
+
+header ul li:first-child {margin-left: 0;}
+
+    @media (max-width: 700px) 
+    {header {flex-direction: column;}
+    header ul {margin-top: 15px;}}
 
 /* HERO */
