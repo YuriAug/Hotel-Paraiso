@@ -64,11 +64,11 @@ header nav a:first-child {margin-left: 0;}
 .grid li {margin: 10px;}}
 
 /* CONHEÇA O HOTEL #2 */
-.chamado-2 {display: flex; flex-direction: column; justify-content: space-between; height: 500px; text-align: center; padding: 30px 20px; background-color: #191c03;}
+.chamado-2 {display: flex; flex-direction: column; justify-content: space-between; text-align: center; padding: 30px 20px; background-color: #191c03;}
 
 .chamado-2 h2 {font-size: 1.5rem; color: #fff}
 
-.chamado-2 p {color: #fff}
+.chamado-2 p {margin: 25px 0px; color: #fff}
 
 .chamado-2 div {display: flex; justify-content: space-around; height: 65%;}
 
@@ -76,7 +76,7 @@ header nav a:first-child {margin-left: 0;}
 
         .chamado-2 div li img {margin: 0px auto;}
 
-        .chamado-2 div li a {font-size: 2rem; color: #b0c705; opacity: 1;}
+        .chamado-2 div li a {font-size: 2rem; color: #b0c705; opacity: 1; margin: 10px 0px;}
 
         .chamado-2 div li p {height: 50%; margin: 0px 5px;}
 
@@ -85,7 +85,9 @@ header nav a:first-child {margin-left: 0;}
 
 @media (max-width: 990px)
 {.chamado-2 div li a {font-size: 1.5rem;}
-{.chamado-2 div li p {font-size: 0.8rem;}}
+.chamado-2 div li p {font-size: 0.8rem;}}
 
-@media (max-width: 700px)
-{.chamado-2 div {flex-direction: column;}}
+@media (max-width: 850px)
+{.chamado-2 div {align-items: center; flex-direction: column;}
+.chamado-2 div li {width: 80%; margin-top: 25px;}
+.chamado-2 div li:first-child {margin-top: 0px;}}
