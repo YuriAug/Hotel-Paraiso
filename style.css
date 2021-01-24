@@ -20,9 +20,9 @@ header nav a {margin-left: 30px;}
 
 header nav a:first-child {margin-left: 0;}
 
-    @media (max-width: 700px) 
-    {header {flex-direction: column;}
-    header nav {margin-top: 15px;}}
+@media (max-width: 700px) 
+{header {flex-direction: column;}
+header nav {margin-top: 15px;}}
 
 /* HERO */
 .hero {height: 750px; min-width: 310px; background-image: url(img/hero.jpg); background-size: cover; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; margin-bottom: 50px;}
@@ -33,9 +33,9 @@ header nav a:first-child {margin-left: 0;}
 
 .hero a {padding: 15px 50px; margin: 25px 50px; border-radius: 10px; text-transform: uppercase; background-color: rgba(255, 255, 255, 0.85);}
 
-    @media (max-width: 700px)
-    {.hero h1 {font-size: 2.5rem;}
-    .hero h2 {font-size: 1rem;}}
+@media (max-width: 700px)
+{.hero h1 {font-size: 2.5rem;}
+.hero h2 {font-size: 1rem;}}
 
 /* CONHEÇA O HOTEL #1 */
 .chamado-1 {display: flex; flex-direction: column; text-align: center; padding: 50px; color: #191c03;}
@@ -60,7 +60,8 @@ header nav a:first-child {margin-left: 0;}
         .grid .img-quatro {background-image: url(img/itacare-04.jpg);}
 
 @media (max-width: 850px) 
-{.grid .large, .grid .small {flex-basis: 100%;}
+{.chamado-1 {padding: 25px 50px;}
+.grid .large, .grid .small {flex-basis: 100%;}
 .grid li {margin: 10px;}}
 
 /* CONHEÇA O HOTEL #2 */
@@ -91,3 +92,13 @@ header nav a:first-child {margin-left: 0;}
 {.chamado-2 div {align-items: center; flex-direction: column;}
 .chamado-2 div li {width: 80%; margin-top: 25px;}
 .chamado-2 div li:first-child {margin-top: 0px;}}
+
+/* NEWSLETTER */
+.newsletter {display: flex; flex-direction: column; align-items: center; justify-content: space-between;  padding: 30px 50px; color: #191c03;}
+.newsletter h2 {font-size: 2rem; margin-bottom: 15px;}
+.newsletter p {max-width: 55%; text-align: center;}
+.newsletter hr {width: 200px; height: 2px; margin: 20px auto; background-color: #191c03;}
+
+form {width: 70%; display: flex; justify-content: space-around;}
+#email {flex-basis: 80%; line-height: 30px; border-radius: 15px; border: 1px solid #191c03; padding: 0px 5px;}
+#btn {line-height: 30px; border-radius: 15px; border: 1px solid #191c03; padding: 0px 15px;}
