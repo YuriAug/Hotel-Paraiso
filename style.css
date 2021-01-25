@@ -10,11 +10,13 @@ a:hover {opacity: 100%;}
 /* HEADER */
 header {display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 20px 50px; background-color: #fff;}
 
-header a {text-decoration: none; opacity: 0.9; color: #191c03; cursor: pointer; margin-left: 30px;}
+header a {text-decoration: none; opacity: 0.9; color: #191c03; cursor: pointer;}
 
 header img {width: 200px;}
 
 header nav {display: flex; justify-content: space-between;}
+
+header nav a {margin-left: 30px;}
 
     header nav a:first-child {margin-left: 0;}
 
