@@ -65,11 +65,11 @@ header nav {margin-top: 15px;}}
 .grid li {margin: 10px;}}
 
 /* CONHEÇA O HOTEL #2 */
-.chamado-2 {display: flex; flex-direction: column; justify-content: space-between; text-align: center; padding: 30px 20px; background-color: #191c03;}
+.chamado-2 {display: flex; flex-direction: column; justify-content: space-between; text-align: center; padding: 50px 30px; background-color: #191c03;}
 
 .chamado-2 h2 {font-size: 1.5rem; color: #fff}
 
-.chamado-2 p {margin: 25px 0px; color: #fff}
+.chamado-2 p {margin: 50px 0px; color: #fff}
 
 .chamado-2 div {display: flex; justify-content: space-around; height: 65%;}
 
@@ -81,24 +81,30 @@ header nav {margin-top: 15px;}}
 
         .chamado-2 div li p {height: 50%; margin: 0px 5px;}
 
-@media (max-width: 1250px)
-{.chamado-2 div li p {font-size: 0.9rem;}}
-
-@media (max-width: 990px)
+@media (max-width: 1100px)
 {.chamado-2 div li a {font-size: 1.5rem;}
 .chamado-2 div li p {font-size: 0.8rem;}}
 
-@media (max-width: 850px)
+@media (max-width: 800px)
 {.chamado-2 div {align-items: center; flex-direction: column;}
 .chamado-2 div li {width: 80%; margin-top: 25px;}
 .chamado-2 div li:first-child {margin-top: 0px;}}
 
 /* NEWSLETTER */
-.newsletter {display: flex; flex-direction: column; align-items: center; justify-content: space-between;  padding: 30px 50px; color: #191c03;}
-.newsletter h2 {font-size: 2rem; margin-bottom: 15px;}
-.newsletter p {max-width: 55%; text-align: center;}
+.newsletter {display: flex; flex-direction: column; align-items: center; justify-content: space-between;  padding: 50px 50px; color: #191c03;}
+.newsletter h2 {font-size: 2rem; margin-bottom: 20px;}
+.newsletter p {max-width: 55%; text-align: center; }
 .newsletter hr {width: 200px; height: 2px; margin: 20px auto; background-color: #191c03;}
 
-form {width: 70%; display: flex; justify-content: space-around;}
-#email {flex-basis: 80%; line-height: 30px; border-radius: 15px; border: 1px solid #191c03; padding: 0px 5px;}
-#btn {line-height: 30px; border-radius: 15px; border: 1px solid #191c03; padding: 0px 15px;}
+form {width: 70%; display: flex; justify-content: space-around; border-style: none;}
+#email {line-height: 50px; flex-basis: 80%; border-radius: 15px; border: 1px solid #191c03; padding: 0px 10px; margin: 10px 0px; cursor: pointer;}
+#btn {line-height: 50px; flex-basis: 10%; text-align: center; border-radius: 15px; border: 1px solid #191c03; background-color: white; margin: 10px 0px; padding: 0px 10px; cursor: pointer;}
+
+    #email:focus {outline: none;}
+    #btn:hover {background-color: rgba(208, 235, 6, 0.7); outline: none;}
+
+@media (max-width: 750px)
+{form {flex-direction: column; align-items: center;}
+#email {width: 100%; line-height: 35px; border-radius: 10px;}
+#btn {width: 40%; line-height: 35px; border-radius: 10px; padding: 0px;}}
+
