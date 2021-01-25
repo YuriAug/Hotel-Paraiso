@@ -110,6 +110,7 @@ form {width: 70%; display: flex; justify-content: space-around; border-style: no
 
 /* FOOTER */
 footer {height: 150px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background-color: #191c03; color: #b0c705;}
-footer img {margin: 15px 5px}
+footer img {margin: 15px 5px; position: relative;}
+    footer img:hover {transform: translateY(-10px);}
 footer a {opacity: .7;}
 footer p {margin: 0px 15px;}
