@@ -73,7 +73,7 @@ header nav {margin-top: 15px;}}
 
 .chamado-2 div {display: flex; justify-content: space-around; height: 65%;}
 
-    .chamado-2 div li {display: flex; flex-direction: column; justify-content: space-between; text-align: center; width: 33%; color: #fff;}
+    .chamado-2 div li {display: flex; flex-direction: column; justify-content: space-between; text-align: center; width: 33%; margin: 10px 0px; color: #fff;}
 
         .chamado-2 div li img {margin: 0px auto;}
 
